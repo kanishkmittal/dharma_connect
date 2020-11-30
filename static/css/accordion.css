@@ -1,0 +1,67 @@
+
+/* * * * * * * * * * * * * * *
+*                            *
+*      FULL-TEXT SEARCH      *
+*                            *
+* * * * * * * * * * * * * * */
+
+#fullTextSearch input[type=text] {
+    padding: 9.5px;
+    font-size: 17px;
+    border: 1px solid #fccc8c;;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+#fullTextSearch button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #fcba72;
+    color: white;
+    font-size: 17px;
+    border: 1px solid #fcba72;;
+    border-left: none;
+    cursor: pointer;
+}
+
+#fullTextSearch button:hover {
+    background: #fcba72;;
+}
+
+#fullTextSearch::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/*
+  accordion cards
+*/
+
+.btn-link {
+    color: #fb931c;;
+}
+
+.btnText {
+    font-size: 2.5vh;
+}
+.btnText:link {
+    text-decoration: none;
+}
+.btnText:hover {
+    text-decoration: none;
+}
+
+.btnText:visited {
+    text-decoration: none;
+}
+
+.btnText:active {
+    text-decoration: none;
+}
+.btnText::selection {
+    text-decoration: none;
+}
+

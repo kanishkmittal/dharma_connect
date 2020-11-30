@@ -1,0 +1,86 @@
+{
+  "name": "select",
+  "color": "white",
+  "children": [
+    {
+      "name": "Academic Pathways",
+      "color": "0",
+      "children": [
+        {
+          "name": "Concentrations/Secondaries",
+          "color": "0_0",
+          "children": [
+            {"name": "Arts/Humanities", "color": "0_0_0", "children": []},
+            {"name": "Science/Engineering", "color": "0_0_1", "children": []},
+            {"name": "Social Sciences", "color": "0_0_2", "children": []}
+          ]
+        },
+        {
+          "name": "Research",
+          "color": "0_1",
+          "children": [
+            {"name": "Arts/Humanities", "color": "0_1_0", "children": []},
+            {"name": "Life/Health Sciences", "color": "0_1_1", "children": []},
+            {"name": "Science/Engineering", "color": "0_1_2", "children": []},
+            {"name": "Social Science/Professional Fields", "color": "0_1_3", "children": []}
+          ]
+        },
+        {
+          "name": "Other Pathways",
+          "color": "0_2",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Work & Graduate School",
+      "color": "1",
+      "children": [
+        {"name": "Internships/Careers", "color": "1_0", "children":
+          [
+            {"name": "Arts / Entertainment / Media", "color": "1_0_0", "children": []},
+            {"name": "Business / Entrepreneurship", "color": "1_0_1", "children": []},
+            {"name": "Gov / Law / Ed / Non-profit", "color": "1_0_2", "children": []},
+            {"name": "Health / Life Sciences", "color": "1_0_3", "children": []},
+            {"name": "Tech / Engineering / Environment / Architecture", "color": "1_0_4", "children": []}
+          ]
+        },
+        {"name": "Graduate School", "color": "1_1", "children":
+          [
+            {"name": "Arts / Humanities / Social Sciences", "color": "1_1_0", "children": []},
+            {"name": "Professional Graduate School", "color": "1_1_1", "children": []},
+            {"name": "Sciences/Engineering Graduate School", "color": "1_1_2", "children": []}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Travel & Languages",
+      "color": "2",
+      "children": [
+        {
+          "name": "Countries",
+          "color": "2_0",
+          "children": [
+            {"name": "Africa", "color": "2_0_0", "children": []},
+            {"name": "Americas", "color": "2_0_1", "children": []},
+            {"name": "Asia", "color": "2_0_2", "children": []},
+            {"name": "Australia/Oceania", "color": "2_0_3", "children": []},
+            {"name": "Europe", "color": "2_0_4", "children": []}
+          ]
+        },
+        {"name": "Languages", "color": "2_1", "children":[]}
+      ]
+    },
+    {
+      "name": "Tutor Roles & Peer Advisers",
+      "color": "3",
+      "children":
+      [
+        {"name": "Concentration Advisers", "color": "3_0", "children": []},
+        {"name": "House Roles & Committees", "color": "3_1", "children": []},
+        {"name": "Departmental Peer Advisers", "color": "3_2", "children": []},
+        {"name": "Other peer advising positions", "color": "3_3", "children": []}
+      ]
+    }]
+}
